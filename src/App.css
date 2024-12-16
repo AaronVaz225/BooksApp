@@ -30,4 +30,59 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
+  text-align: center;
+}
+
+.favorites {
+  min-height: 80vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  text-align: center;
+}
+
+.book-details {
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.book-description {
+  margin: 0px 10px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  transition: all 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.book {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+button {
+  padding: 10px;
+  background: black;
+  color: white;
+  width: 300px;
+  font-size: 20px;
+  border-radius: 5px;
 }
