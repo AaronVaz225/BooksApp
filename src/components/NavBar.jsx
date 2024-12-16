@@ -1,10 +1,9 @@
 import React from "react";
-import "../App";
+import "../App.css";
 
 const NavBar = () => {
   return (
     <div className="navbar">
-      NavBar
       <div>
         <h1>React Books App</h1>
       </div>
